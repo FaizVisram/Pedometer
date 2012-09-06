@@ -1,0 +1,21 @@
+<!-- Styles/themes for any devices running Android OS >= 3.x -->
+<resources>
+
+    <style name="MyTheme" parent="@android:style/Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/MyActionBar</item>
+    	<item name="android:popupMenuStyle">@style/MyPopupMenu</item>
+		 
+	</style>
+    
+	<style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
+    	<item name="android:icon">@drawable/ic_launcher_2</item>
+	    <item name="android:background">#33b5e5</item>
+	    <item name="android:backgroundSplit">#33b5e5</item>   
+	</style>	
+	
+	<!-- style the overflow menu -->
+	<style name="MyPopupMenu" parent="android:style/Widget.Holo.Light.ListPopupWindow">
+	    <item name="android:popupBackground">#bbe7f7</item> 
+	</style>
+			
+</resources>

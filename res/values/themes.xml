@@ -1,0 +1,6 @@
+<!-- Styles/themes for any devices running Android OS < 3.x -->
+<resources>
+    <style name="MyTheme" parent="@android:style/Theme">
+
+    </style>
+</resources>
